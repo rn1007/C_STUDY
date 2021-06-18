@@ -16,7 +16,7 @@ char* solution(const char* phone_number) {
     {
         answer[i] = phone_number[i];
     }
-    answer[strlen(phone_number) + 1] = '\0';
+    answer[strlen(phone_number)] = '\0';
     
     return answer;
 }
